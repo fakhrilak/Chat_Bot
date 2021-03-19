@@ -1,7 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fetch = require('node-fetch');
 const utf8 = require('utf8');
-const token = '1701597299:AAEc45ZPE3rUQogizTXdNDy9vf5YbxtvZg4';
 const bot = new TelegramBot(token, {polling: true});
 
 
